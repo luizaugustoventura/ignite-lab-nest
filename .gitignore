@@ -36,3 +36,7 @@ lerna-debug.log*
 
 # Environment variables
 .env
+
+# Prisma ORM files
+/prisma
+!/prisma/schema.prisma
