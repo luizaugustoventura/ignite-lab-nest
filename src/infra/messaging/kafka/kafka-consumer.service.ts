@@ -9,13 +9,12 @@ export class KafkaConsumerService
   constructor() {
     super({
       client: {
-        clientId: 'notifications',
-        brokers: ['national-quail-11753-us1-kafka.upstash.io:9092'],
+        clientId: process.env.KAFKA_CLIENT_ID,
+        brokers: [process.env.KAFKA_BROKER!],
         sasl: {
           mechanism: 'scram-sha-256',
-          username:
-            'bmF0aW9uYWwtcXVhaWwtMTE3NTMkUTIqWW7MJtEJPzF09YAbn6pDM40dDqg7OIA',
-          password: '92569419fddc447ca54d31cc452d43db',
+          username: process.env.KAFKA_USERNAME!,
+          password: process.env.KAFKA_PASSWORD!,
         },
         ssl: true,
       },
