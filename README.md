@@ -7,6 +7,9 @@
     <a href="https://www.youtube.com/@rocketseat" style="text-decoration: none;">Rocketseat</a>.
 </p>
 
+<h4>🗺Fluxo arquitetônico: 🗺</h4>
+<img src="docs/arch_flow.png" alt="Project's architectural flow"/>
+
 <h4>🛠Ferramentas e tecnologias: 🛠</h4>
 <ul>
     <li>NestJS</li>
