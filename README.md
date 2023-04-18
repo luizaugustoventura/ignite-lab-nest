@@ -7,6 +7,9 @@
     <a href="https://www.youtube.com/@rocketseat" style="text-decoration: none;">Rocketseat</a>.
 </p>
 
+<h4>🗺Fluxo arquitetônico: 🗺</h4>
+<img src="docs/arch_flow.png" alt="Project's architectural flow"/>
+
 <h4>🛠Ferramentas e tecnologias: 🛠</h4>
 <ul>
     <li>NestJS</li>
@@ -26,8 +29,6 @@
         Ao usar o Kafka com Docker, lembrar de remover as propriedades <code>sasl</code> e <code>ssl</code> dos arquivos <a href="app/src/infra/messaging/kafka/kafka-consumer.service.ts">kafka-consumer.service.ts</a> e <a href="kafka-producer-helper/producer.js">producer.js</a>, já que a autenticação não será necessária
     </li>
 </ul>
-
-
 
 <h5>😼️Comandos da aplicação NestJS: 😼️</h5>
 <ul>
