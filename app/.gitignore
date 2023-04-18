@@ -38,5 +38,5 @@ lerna-debug.log*
 .env
 
 # Prisma ORM files
-/prisma
+/prisma/*
 !/prisma/schema.prisma
