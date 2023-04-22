@@ -68,3 +68,9 @@
         <i>Obs: O container Kafka estará disponível através da porta 9094</i>
     </li>
 </ul>
+
+<h5>🏞️Captura de tela: 🏞️</h5>
+<img
+    src="docs/notifications-frontend-example-animation.gif"
+    alt="Notifications frontend example animation gif"
+/>
